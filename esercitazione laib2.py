@@ -130,6 +130,7 @@ def main():
             else:
                 print(f"Nessuna foto trovata per l'anno {anno}.")
 
+
         elif scelta == "5":
             print("Uscita dal programma...")
             break
