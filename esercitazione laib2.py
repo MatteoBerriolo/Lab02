@@ -123,7 +123,6 @@ def main():
             except ValueError:
                 print("Errore: inserire un valore numerico valido.")
                 continue
-
             titoli = elenco_foto_anno_per_titolo(album, anno)
             if titoli is not None:
                 print(f'\nFoto del {anno}:')
